@@ -16,12 +16,13 @@
         android:layout_height="0dp"
         android:background="@drawable/blue_bg_round_edge"
         android:backgroundTint="@color/colorLightBlue"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:id="@+id/weightLifting">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/Weight"
+            android:src="@drawable/weight"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             android:paddingBottom="10dp"/>
@@ -76,13 +77,14 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@drawable/blue_bg_round_edge"
-        android:backgroundTint="#59ce23"
-        android:layout_marginTop="15dp">
+        android:backgroundTint="@color/colorLightGreen"
+        android:layout_marginTop="15dp"
+        android:id="@+id/yoga">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/Lotus"
+            android:src="@drawable/lotus"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"/>
 
@@ -91,7 +93,37 @@
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:textColor="#ffffff"
-            android:text="10 sets"
+            android:text="Yoga"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp"
+            android:paddingLeft="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="don't touch the potato!"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:textColor="#ffffff"
+            android:text="12%"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="1 hour"
             android:layout_alignParentEnd="true"
             android:paddingRight="10dp"
             android:paddingLeft="10dp"
@@ -105,14 +137,15 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@drawable/blue_bg_round_edge"
-        android:backgroundTint="#e11c1c"
+        android:backgroundTint="@color/colorLightRed"
         android:layout_weight="1"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="15dp"
+        android:id="@+id/cardio">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/Heart"
+            android:src="@drawable/heart"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"/>
 
@@ -121,7 +154,37 @@
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:textColor="#ffffff"
-            android:text="10 sets"
+            android:text="Cardio"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp"
+            android:paddingLeft="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="Whos that man at mah door!"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:textColor="#ffffff"
+            android:text="25%"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="2 miles"
             android:layout_alignParentEnd="true"
             android:paddingRight="10dp"
             android:paddingLeft="10dp"
